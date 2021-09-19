@@ -7,13 +7,32 @@
     line-height: 1;
     text-decoration: none;
     cursor: pointer;
-    border: 0px;
+    border: none;
     &--theme--yellow {
         background: #fedb3f;
         color: #000;
         &:hover {
             color: #fff;
             background: $blue;
+        }
+    }
+    &--theme--bg {
+        background: #fedb3f;
+        color: #000;
+        &:hover {
+            color: #fff;
+            background: #313131;
+        }
+    }
+    &--theme--transparent {
+        background: transparent;
+        color: #fff;
+        text-transform: none;
+        font-weight: normal;
+        font-size: 18px;
+        &:hover {
+            color: #000;
+            background: #313131;
         }
     }
 }

@@ -1,0 +1,41 @@
+.rewiews__display {
+    background: #f8faf9;
+    padding: 42px 42px 42px 42px;
+}
+
+.rewiews__display-inner {
+    display: flex;
+}
+
+.rewiews__avatar {
+    width: 254px;
+    height: 264px;
+}
+
+.rewiews__avatar-img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.rewiews__content {
+    flex: 1;
+    margin: 0px 0px 0px 40px;
+}
+
+.rewiews__title {
+    font-weight: bold;
+    font-size: 27px;
+    margin: 0px 0px 15px 0px;
+    color: $black;
+}
+
+.rewiews__text {
+    margin: 0px 0px 25px 0px;
+}
+
+.rewiews__author {
+    font-weight: 500;
+    font-size: 18px;
+    color: $black;
+}

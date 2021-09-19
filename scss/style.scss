@@ -5,6 +5,9 @@ $baseFontSize: 18px;
 $blue: #1968b1;
 $black: #292929;
 
+//z-indexes
+$z-fixed-menu: 100;
+
 //normalize
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 
@@ -18,3 +21,13 @@ $black: #292929;
 @import "components/_features";
 @import "components/_feature";
 @import "components/_btn";
+@import "components/_section";
+@import "components/_headline";
+@import "components/_benefits";
+@import "components/_benefit";
+@import "components/_reviews";
+@import "components/_interactive-avatar";
+@import "components/_order-section";
+@import "components/_form";
+@import "components/_radio";
+@import "components/_fixed-menu";
