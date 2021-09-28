@@ -17,7 +17,7 @@
     }
 
     &::before {
-        content: url("../../img/decor/shape.png");
+        content: url("./../img/decor/shape.png");
         position: absolute;
         top: rem(30px);
         right: 0;
