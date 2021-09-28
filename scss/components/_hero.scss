@@ -3,7 +3,7 @@
         url("../../img/arnaud-mesureur.jpg") center top no-repeat;
     background-color: $blue;
     height: 100vh;
-    max-height: 650px;
+    max-height: rem(650px);
     color: #fff;
 }
 
@@ -12,22 +12,46 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    padding: 25px 0px 70px 0px;
+    padding: rem(25px) rem(0px) rem(70px) rem(0px);
 }
 
 .hero__title-section {
     width: 46%;
+
+    @include tablets {
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.hero__icons-section {
+    @include tablets {
+        display: none;
+    }
 }
 
 .hero__main-title {
     font-weight: bold;
-    font-size: 48px;
+    font-size: rem(48px);
     line-height: 1.1;
-    margin: 0px 0px 18px 0px;
+    margin: rem(0px) rem(0px) rem(18px) rem(0px);
     text-transform: uppercase;
 }
 
 .hero__title-desc {
-    font-size: 21px;
-    margin: 0px 0px 40px 0px;
+    font-size: rem(21px);
+    margin: rem(0px) rem(0px) rem(40px) rem(0px);
+
+    @include tablets {
+        padding: 0 25%;
+    }
+
+    @include phones {
+        padding: 0 16%;
+    }
 }

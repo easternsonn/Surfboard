@@ -1,0 +1,116 @@
+.socials {
+    display: flex;
+    //gap: rem(50px);
+}
+
+.socials__item {
+    margin-right: rem(35px);
+}
+
+.socials__item--icon--vk .socials__link {
+    &:hover:before {
+        opacity: 1;
+    }
+    &:hover:after {
+        opacity: 0;
+    }
+    &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: rem(20px);
+        height: rem(20px);
+        background: url("../../img/socials/sprites.png") -50px -50px;
+        transition: 0.3s;
+    }
+    &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: rem(20px);
+        height: rem(20px);
+        background: url("../../img/socials/sprites.png") -50px -50px;
+        transition: 0.3s;
+    }
+}
+
+.socials__item--icon--fb .socials__link {
+    &:hover:before {
+        opacity: 1;
+    }
+    &:hover:after {
+        opacity: 0;
+    }
+    &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        background: url("../../img/socials/sprites.png") -10px -10px;
+        transition: 0.3s;
+    }
+    &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        background: url("../../img/socials/sprites.png") -10px -10px;
+        transition: 0.3s;
+    }
+}
+
+.socials__item--icon--in .socials__link {
+    &:hover:before {
+        opacity: 1;
+    }
+    &:hover:after {
+        opacity: 0;
+    }
+    &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        background: url("../../img/socials/sprites.png") -50px -10px;
+        transition: 0.3s;
+    }
+    &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        background: url("../../img/socials/sprites.png") -50px -10px;
+        transition: 0.3s;
+    }
+}
+
+.socials__item--icon--tw .socials__link {
+    &:hover:before {
+        opacity: 1;
+    }
+    &:hover:after {
+        opacity: 0;
+    }
+    &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        background: url("../../img/socials/sprites.png") -10px -50px;
+        transition: 0.3s;
+    }
+    &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        background: url("../../img/socials/sprites.png") -10px -50px;
+        transition: 0.3s;
+    }
+}

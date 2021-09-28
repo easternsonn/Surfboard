@@ -4,8 +4,8 @@
 
 .features__item {
     align-items: center;
-    margin: 0px 34px 0px 0px;
+    margin: rem(0px) rem(34px) rem(0px) rem(0px);
     &:last-child {
-        margin: 0px 0px 0px 0px;
+        margin: rem(0px) rem(0px) rem(0px) rem(0px);
     }
 }

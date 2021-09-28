@@ -1,12 +1,19 @@
 $containerWidth: 940px;
 $baseFontSize: 18px;
 
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
+
 //colors
 $blue: #1968b1;
 $black: #292929;
 
 //z-indexes
 $z-fixed-menu: 100;
+
+//adaptive
+@import "_media";
 
 //normalize
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
@@ -31,3 +38,6 @@ $z-fixed-menu: 100;
 @import "components/_form";
 @import "components/_radio";
 @import "components/_fixed-menu";
+@import "components/_hamburger";
+@import "components/_footer";
+@import "components/_socials";

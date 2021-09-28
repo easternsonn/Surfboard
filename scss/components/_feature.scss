@@ -3,13 +3,13 @@
 }
 
 .feature__icon {
-    width: 35px;
-    height: 35px;
-    margin: 0px 14px 0px 0px;
+    width: rem(35px);
+    height: rem(35px);
+    margin: rem(0px) rem(14px) rem(0px) rem(0px);
 }
 
 .feature__text {
     font-weight: bold;
-    font-size: 16px;
-    max-width: 90px;
+    font-size: rem(16px);
+    max-width: rem(90px);
 }

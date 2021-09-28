@@ -1,14 +1,14 @@
 .rewiews__switcher {
     display: flex;
     justify-content: center;
-    padding: 15px 0px 0px 0px;
+    padding: rem(15px) rem(0px) rem(15px) rem(0px);
 }
 
 .interactive-avatar {
-    width: 80px;
-    height: 80px;
-    // border: 6px solid #fedb3f;
-    border: 6px solid transparent;
+    width: rem(80px);
+    height: rem(80px);
+    // border: rem(6px) solid #fedb3f;
+    border: rem(6px) solid transparent;
     border-radius: 50%;
     overflow: hidden;
     position: relative;

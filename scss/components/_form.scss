@@ -1,54 +1,74 @@
 .form {
     display: flex;
+
+    @include tablets {
+        flex-direction: column;
+        padding: 0 18%;
+    }
+
+    @include phones {
+        padding: 0;
+    }
 }
 
 .form__col {
     flex: 1;
-    margin: 0px 20px 0px 0px;
+    margin: rem(0px) rem(20px) rem(0px) rem(0px);
 
     &:last-child {
-        margin: 0px 0px 0px 0px;
+        margin: rem(0px) rem(0px) rem(0px) rem(0px);
+    }
+
+    @include tablets {
+        margin: rem(0px) rem(0px) rem(0px) rem(0px);
     }
 }
 
 .form__row {
     display: flex;
-    margin: 0px 0px 18px 0px;
+    margin: rem(0px) rem(0px) rem(18px) rem(0px);
 }
 
 .form__block {
     flex: 1;
-    margin: 0px 20px 0px 0px;
+    margin: rem(0px) rem(20px) rem(0px) rem(0px);
 
     &:last-child {
-        margin: 0px 0px 0px 0px;
+        margin: rem(0px) rem(0px) rem(0px) rem(0px);
     }
 }
 
 .form__input {
     width: 100%;
     border: none;
-    padding: 18px 12px;
-    //border: 3px solid #FEDB3F;
-    border: 3px solid transparent;
-    border-radius: 4px;
+    padding: rem(18px) rem(12px);
+    border: rem(3px) solid transparent;
+    border-radius: rem(4px);
     &--textarea {
-        height: 152px;
-        //width: 450px;
+        height: rem(152px);
         resize: none;
     }
     &:focus {
         border-color: #fedb3f;
         outline: none;
-        border-radius: 4px;
+        border-radius: rem(4px);
     }
 }
 
 .form__controls {
     display: flex;
     flex-wrap: wrap;
+
+    @include phones {
+        justify-content: center;
+    }
 }
 
 .form__btns {
-    padding: 46px 0px 0px 0px;
+    padding: rem(46px) rem(0px) rem(0px) rem(0px);
+
+    @include tablets {
+        display: flex;
+        justify-content: center;
+    }
 }
