@@ -1,0 +1,30 @@
+.products-slider {
+    position: relative;
+
+    .bx-wrapper {
+        border: 0;
+        background: transparent;
+        box-shadow: none;
+        margin-bottom: 0px;
+    }
+}
+
+.products-slider__arrow {
+    background: url("./../img/icon/arrow.svg");
+    display: block;
+    width: rem(13px);
+    height: rem(28px);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+
+    &--left {
+        left: 0;
+    }
+
+    &--right {
+        right: 0;
+        transform: rotate(-180deg);
+    }
+}

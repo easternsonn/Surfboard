@@ -1,0 +1,14 @@
+.team__list {
+    margin: rem(53px) rem(0px) rem(0px) rem(0px);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.team__item {
+    margin: rem(0px) rem(20px) rem(0px) rem(0px);
+
+    &:last-child {
+        margin: rem(0px) rem(0px) rem(0px) rem(0px);
+    }
+}

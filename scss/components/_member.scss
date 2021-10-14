@@ -1,0 +1,43 @@
+.member {
+    &__photo {
+        margin: rem(0px) rem(0px) rem(20px) rem(0px);
+    }
+
+    &__photo-logo {
+        width: rem(220px);
+        height: rem(290px);
+    }
+
+    &__name {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        margin: rem(0px) rem(0px) rem(8px) rem(0px);
+        font-size: rem(21px);
+        font-weight: bold;
+        color: #292929;
+    }
+
+    &__name-triangle {
+        margin: rem(0px) rem(0px) rem(0px) rem(4px);
+        transition: all 0.5s ease-in-out;
+
+        &_rotated {
+            transform: rotate(180deg);
+            transition: all 0.5s ease-in-out;
+        }
+    }
+
+    &__description {
+        text-align: center;
+        max-width: rem(221px);
+        opacity: 0;
+        transition: all 0.5s ease-in-out;
+
+        &_visible {
+            opacity: 1;
+            transition: all 0.5s ease-in-out;
+        }
+    }
+}

@@ -20,7 +20,7 @@
         position: absolute;
         width: rem(20px);
         height: rem(20px);
-        background: url("../../img/socials/sprites.png") -50px -50px;
+        background: url("./../img/socials/sprites.png") rem(-50px) rem(-50px);
         transition: 0.3s;
     }
     &:before {
@@ -29,7 +29,7 @@
         position: absolute;
         width: rem(20px);
         height: rem(20px);
-        background: url("../../img/socials/sprites.png") -50px -50px;
+        background: url("./../img/socials/sprites.png") rem(-50px) rem(-50px);
         transition: 0.3s;
     }
 }
@@ -45,18 +45,18 @@
         content: "";
         display: block;
         position: absolute;
-        width: 36px;
-        height: 36px;
-        background: url("../../img/socials/sprites.png") -10px -10px;
+        width: rem(36px);
+        height: rem(36px);
+        background: url("./../img/socials/sprites.png") rem(-10px) rem(-10px);
         transition: 0.3s;
     }
     &:before {
         content: "";
         display: block;
         position: absolute;
-        width: 36px;
-        height: 36px;
-        background: url("../../img/socials/sprites.png") -10px -10px;
+        width: rem(36px);
+        height: rem(36px);
+        background: url("./../img/socials/sprites.png") rem(-10px) rem(-10px);
         transition: 0.3s;
     }
 }
@@ -72,18 +72,18 @@
         content: "";
         display: block;
         position: absolute;
-        width: 36px;
-        height: 36px;
-        background: url("../../img/socials/sprites.png") -50px -10px;
+        width: rem(36px);
+        height: rem(36px);
+        background: url("./../img/socials/sprites.png") rem(-50px) rem(-10px);
         transition: 0.3s;
     }
     &:before {
         content: "";
         display: block;
         position: absolute;
-        width: 36px;
-        height: 36px;
-        background: url("../../img/socials/sprites.png") -50px -10px;
+        width: rem(36px);
+        height: rem(36px);
+        background: url("./../img/socials/sprites.png") rem(-50px) rem(-10px);
         transition: 0.3s;
     }
 }
@@ -99,18 +99,18 @@
         content: "";
         display: block;
         position: absolute;
-        width: 36px;
-        height: 36px;
-        background: url("../../img/socials/sprites.png") -10px -50px;
+        width: rem(36px);
+        height: rem(36px);
+        background: url("./../img/socials/sprites.png") rem(-10px) rem(-50px);
         transition: 0.3s;
     }
     &:before {
         content: "";
         display: block;
         position: absolute;
-        width: 36px;
-        height: 36px;
-        background: url("../../img/socials/sprites.png") -10px -50px;
+        width: rem(36px);
+        height: rem(36px);
+        background: url("./../img/socials/sprites.png") rem(-10px) rem(-50px);
         transition: 0.3s;
     }
 }
