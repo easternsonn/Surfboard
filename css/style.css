@@ -1397,7 +1397,7 @@ img {
 }
 
 .products-menu-section {
-  background: url("./../../img/menu/first.png") center center/cover no-repeat;
+  background: url("./../img/menu/first.png") center center/cover no-repeat;
   color: #fff;
   position: relative;
   display: -webkit-box;
@@ -1439,15 +1439,15 @@ img {
 }
 
 .menu-acco__trigger-second {
-  background: url("./../../img/menu/second.png") center center/cover no-repeat;
+  background: url("./../img/menu/second.png") center center/cover no-repeat;
 }
 
 .menu-acco__trigger-third {
-  background: url("./../../img/menu/third.png") center center/cover no-repeat;
+  background: url("./../img/menu/third.png") center center/cover no-repeat;
 }
 
 .menu-acco__trigger-fourth {
-  background: url("./../../img/menu/fourth.png") center center/cover no-repeat;
+  background: url("./../img/menu/fourth.png") center center/cover no-repeat;
 }
 
 .menu-acco__trigger-text {

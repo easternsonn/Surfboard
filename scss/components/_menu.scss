@@ -1,5 +1,5 @@
 .products-menu-section {
-    background: url("./../../img/menu/first.png") center center/cover no-repeat;
+    background: url("./../img/menu/first.png") center center/cover no-repeat;
     color: #fff;
     position: relative;
     display: flex;
@@ -32,15 +32,15 @@
     width: 102px;
 
     &-second {
-        background: url("./../../img/menu/second.png") center center/cover no-repeat;
+        background: url("./../img/menu/second.png") center center/cover no-repeat;
     }
 
     &-third {
-        background: url("./../../img/menu/third.png") center center/cover no-repeat;
+        background: url("./../img/menu/third.png") center center/cover no-repeat;
     }
 
     &-fourth {
-        background: url("./../../img/menu/fourth.png") center center/cover no-repeat;
+        background: url("./../img/menu/fourth.png") center center/cover no-repeat;
     }
 }
 
