@@ -251,52 +251,6 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="products__item product">
-                                <div class="product__container">
-                                    <div class="product__col">
-                                        <div class="product__image">
-                                            <img src="./img/board.png" alt="board" class="product__image-elem">
-                                        </div>
-                                    </div>
-                                    <div class="product__col">
-                                        <div class="product__option">
-                                            <div class="option">
-                                                <div class="option__button">
-                                                    <div class="option__button-icon">
-                                                        <img src="./img/icon/cross.svg" alt="cross-icon"
-                                                            class="option__button-icon-elem">
-                                                    </div>
-                                                    <div class="option__text">Параметры</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <h3 class="product__title">Лонгборд 2.0</h3>
-                                        <div class="product__description">
-                                            <div class="product__description--text">
-                                                Устойчивая доска для новичков. На них легко лежать, сидеть, грести,
-                                                разгребаться на волны и ехать. Размер и плавучесть доски позволяет брать
-                                                очень маленькие и пологие волны и не спеша, не прилагая особых усилий
-                                                ехать по ним.
-
-                                            </div>
-                                            <div class="product__description--properties">
-                                                <div class="product__description--properties-left">
-                                                    <p>Длина доски</p>
-                                                    <strong>от 2,5 метров</strong>
-                                                </div>
-                                                <div class="product__description--properties-right">
-                                                    <p>Ширина доски</p>
-                                                    <strong>от 40 сантиметров</strong>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="product__value">
-                                            <div class="product__price">7000 ₽</div>
-                                            <button class="btn btn--theme--yellow">Заказать</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -367,6 +321,44 @@
                         </li>
                     </ul>
                 </div>
+            </section>
+            <section class="section products-menu-section">
+                <h1 class="section__title menu__title">Меню</h1>
+                <ul class="menu-acco">
+                    <li class="menu-acco__line">
+                        <a href="" class="menu-acco__trigger menu-acco__trigger-second">
+                            <span class="menu-acco__trigger-text">Лонгборды</span>
+                        </a>
+                        <div class="menu-acco__content">
+                            Устойчивая доска для новичков. На них легко лежать, сидеть, грести, разгребаться на волны и
+                            ехать. Размер и плавучесть доски позволяет брать очень маленькие и пологие волны и не спеша,
+                            не прилагая особых усилий ехать по ним.
+
+                        </div>
+                    </li>
+                    <li class="menu-acco__line">
+                        <a href="" class="menu-acco__trigger menu-acco__trigger-third">
+                            <span class="menu-acco__trigger-text">Шортборды</span>
+                        </a>
+                        <div class="menu-acco__content">
+                            Устойчивая доска для новичков. На них легко лежать, сидеть, грести, разгребаться на волны и
+                            ехать. Размер и плавучесть доски позволяет брать очень маленькие и пологие волны и не спеша,
+                            не прилагая особых усилий ехать по ним.
+
+                        </div>
+                    </li>
+                    <li class="menu-acco__line">
+                        <a href="" class="menu-acco__trigger menu-acco__trigger-fourth">
+                            <span class="menu-acco__trigger-text">Софттопы</span>
+                        </a>
+                        <div class="menu-acco__content ">
+                            Устойчивая доска для новичков. На них легко лежать, сидеть, грести, разгребаться на волны и
+                            ехать. Размер и плавучесть доски позволяет брать очень маленькие и пологие волны и не спеша,
+                            не прилагая особых усилий ехать по ним.
+
+                        </div>
+                    </li>
+                </ul>
             </section>
             <section class="section rewiews-section">
                 <div class="container">
@@ -467,6 +459,31 @@
                     </div>
                 </div>
             </section>
+            <section class="section player-section">
+                <div class="container">
+                    <h2 class="section__title">Как мы работаем</h2>
+                    <div class="video__container">
+                        <div class="video__player">
+                            <video id="player" poster="./img/player/splashscreen.jpg">
+                                <source src="#" type="video/mp4">
+                            </video>
+                            <img src="./img/player/Play_white.png" alt="" class="play video__player-img">
+                        </div>
+                        <div class="video__toolbar">
+                            <div class="duration">
+                                <img src="./img/player/Play_gray.png" alt="" class="play duration__img">
+                                <input type="range" class="duration__length" id="durationLevel">
+                            </div>
+                            <div class="sound">
+                                <img src="./img/player/Volum_gray.png" class="sound__mic" id="mic" alt="">
+                                <div class="sound__volume">
+                                    <input type="range" class="duration__length duration__length--other" id="micLevel">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section class="section order-section">
                 <div class="container">
                     <h2 class="section__title title">Закажите доску</h2>
@@ -542,7 +559,10 @@
                 </div>
             </section>
             <section class="section map-section">
-                <div class="map"></div>
+                <div id="map-test" class="map"></div>
+            </section>
+            <section class="under">
+
                 <footer class="footer">
                     <div class="container footer__container">
                         <address class="contacts">
@@ -607,9 +627,9 @@
     </nav>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-compat/3.0.0-alpha1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-    <script src="js/slider.js"></script>
-    <script src="js/accordion.js"></script>
-    <script src="js/tabs.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+    <script src="js/scripts.js"></script>
+
 </body>
 
 </html>

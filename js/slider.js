@@ -1,6 +1,7 @@
 const slider = $('.products').bxSlider({
     pager: false,
-    controls: false
+    controls: false,
+    touchEnabled: false
 });
 
 $('.products-slider__arrow--left').click(e => {
