@@ -1,116 +1,23 @@
 .socials {
     display: flex;
-    //gap: rem(50px);
 }
 
 .socials__item {
-    margin-right: rem(35px);
+    margin-right: rem(14px);
 }
 
-.socials__item--icon--vk .socials__link {
-    &:hover:before {
-        opacity: 1;
-    }
-    &:hover:after {
-        opacity: 0;
-    }
-    &:after {
-        content: "";
-        display: block;
-        position: absolute;
-        width: rem(20px);
-        height: rem(20px);
-        background: url("./../img/socials/sprites.png") rem(-50px) rem(-50px);
-        transition: 0.3s;
-    }
-    &:before {
-        content: "";
-        display: block;
-        position: absolute;
-        width: rem(20px);
-        height: rem(20px);
-        background: url("./../img/socials/sprites.png") rem(-50px) rem(-50px);
-        transition: 0.3s;
-    }
+.socials__link {
+    max-width: rem(25px);
+    max-height: rem(25px);
 }
 
-.socials__item--icon--fb .socials__link {
-    &:hover:before {
-        opacity: 1;
-    }
-    &:hover:after {
-        opacity: 0;
-    }
-    &:after {
-        content: "";
-        display: block;
-        position: absolute;
-        width: rem(36px);
-        height: rem(36px);
-        background: url("./../img/socials/sprites.png") rem(-10px) rem(-10px);
-        transition: 0.3s;
-    }
-    &:before {
-        content: "";
-        display: block;
-        position: absolute;
-        width: rem(36px);
-        height: rem(36px);
-        background: url("./../img/socials/sprites.png") rem(-10px) rem(-10px);
-        transition: 0.3s;
-    }
-}
+.socials__link-icon {
+    fill: #b3b3b3;
+    width: rem(25px);
+    height: rem(25px);
 
-.socials__item--icon--in .socials__link {
-    &:hover:before {
-        opacity: 1;
-    }
-    &:hover:after {
-        opacity: 0;
-    }
-    &:after {
-        content: "";
-        display: block;
-        position: absolute;
-        width: rem(36px);
-        height: rem(36px);
-        background: url("./../img/socials/sprites.png") rem(-50px) rem(-10px);
-        transition: 0.3s;
-    }
-    &:before {
-        content: "";
-        display: block;
-        position: absolute;
-        width: rem(36px);
-        height: rem(36px);
-        background: url("./../img/socials/sprites.png") rem(-50px) rem(-10px);
-        transition: 0.3s;
-    }
-}
-
-.socials__item--icon--tw .socials__link {
-    &:hover:before {
-        opacity: 1;
-    }
-    &:hover:after {
-        opacity: 0;
-    }
-    &:after {
-        content: "";
-        display: block;
-        position: absolute;
-        width: rem(36px);
-        height: rem(36px);
-        background: url("./../img/socials/sprites.png") rem(-10px) rem(-50px);
-        transition: 0.3s;
-    }
-    &:before {
-        content: "";
-        display: block;
-        position: absolute;
-        width: rem(36px);
-        height: rem(36px);
-        background: url("./../img/socials/sprites.png") rem(-10px) rem(-50px);
+    &:hover {
+        fill: #000;
         transition: 0.3s;
     }
 }

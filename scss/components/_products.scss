@@ -3,7 +3,7 @@
 }
 
 .products__item {
-    width: 950px;
+    width: rem(950px);
 }
 
 .product__container {
@@ -16,19 +16,19 @@
 }
 
 .option__button {
-    width: 90px;
-    height: 90px;
+    width: rem(90px);
+    height: rem(90px);
     background: #3a587e;
-    border-radius: 4px;
+    border-radius: rem(4px);
 }
 
 .option__button-icon {
-    padding: 16px 26px 6px 26px;
+    padding: rem(16px) rem(26px) rem(6px) rem(26px);
 }
 
 .option__text {
     font-weight: bold;
-    font-size: 14px;
+    font-size: rem(14px);
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;
@@ -37,19 +37,19 @@
 .product__title {
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
+    font-size: rem(36px);
     text-transform: uppercase;
     color: $black;
-    margin: 52px 0px 24px 0px;
+    margin: rem(52px) rem(0px) rem(24px) rem(0px);
 }
 
 .product__description {
-    max-width: 368px;
-    margin: 0px 0px 24px 0px;
+    max-width: rem(368px);
+    margin: rem(0px) rem(0px) rem(24px) rem(0px);
 }
 
 .product__description--text {
-    margin: 0px 0px 24px 0px;
+    margin: rem(0px) rem(0px) rem(24px) rem(0px);
 }
 
 .product__description--properties {
@@ -57,7 +57,7 @@
 }
 
 .product__description--properties-left {
-    margin: 0px 55px 0px 0px;
+    margin: rem(0px) rem(55px) rem(0px) rem(0px);
 }
 
 .product__value {
@@ -68,9 +68,9 @@
 
 .product__price {
     font-weight: 300;
-    font-size: 60px;
+    font-size: rem(60px);
     align-items: center;
     text-transform: uppercase;
     color: #151515;
-    margin: 0px 28px 0px 0px;
+    margin: rem(0px) rem(28px) rem(0px) rem(0px);
 }

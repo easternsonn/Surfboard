@@ -5,11 +5,11 @@
 .video {
     height: 100vh;
     width: 100%;
-    margin-top: -20px;
+    margin-top: rem(-20px);
 }
 
 .video__title {
-    padding-top: 30px;
+    padding-top: rem(30px);
     text-align: center;
 }
 
@@ -22,14 +22,14 @@
 
 .video__player {
     position: relative;
-    max-width: 660px;
-    max-height: 392px;
+    max-width: rem(660px);
+    max-height: rem(392px);
 }
 
 .video__player-img {
     position: absolute;
-    left: 307px;
-    top: 149px;
+    left: rem(307px);
+    top: rem(149px);
     cursor: pointer;
 }
 .video__player-img--active {
@@ -37,17 +37,17 @@
 }
 
 #player {
-    min-width: 660px;
-    max-width: 660px;
-    min-height: 370px;
-    //max-height: 370px;
+    min-width: rem(660px);
+    max-width: rem(660px);
+    min-height: rem(370px);
+    //max-height: rem(370px);
 }
 
 .video__toolbar {
-    width: 660px;
-    height: 35px;
+    width: rem(660px);
+    height: rem(35px);
     background-color: #3e3e3e;
-    //margin-top: -11px;
+    //margin-top: rem(-11px);
     display: flex;
 }
 
@@ -57,14 +57,14 @@
 }
 
 .duration__img {
-    padding: 5px 20px;
+    padding: rem(5px) rem(20px);
     cursor: pointer;
 }
 
 .duration__length {
-    width: 444px;
-    height: 4px;
-    border-radius: 1px;
+    width: rem(444px);
+    height: rem(4px);
+    border-radius: rem(1px);
     background-color: #626262;
     -webkit-appearance: none; /*Override default CSS styles*/
     appearance: none;
@@ -72,8 +72,8 @@
 }
 
 .duration__length--other {
-    width: 58px;
-    height: 4px;
+    width: rem(58px);
+    height: rem(4px);
 }
 
 .duration__length::-webkit-slider-thumb {
@@ -82,14 +82,14 @@
     appearance: none;
     background: #626262;
     cursor: pointer;
-    width: 13px;
-    height: 13px;
+    width: rem(13px);
+    height: rem(13px);
     border-radius: 50%;
 }
 
 .duration__circle {
     cursor: pointer;
-    margin-top: -4px;
+    margin-top: rem(-4px);
     display: block;
 }
 
@@ -101,7 +101,7 @@
 .sound {
     display: flex;
     align-items: center;
-    padding-left: 30px;
+    padding-left: rem(30px);
 }
 
 .sound__mic {
@@ -109,6 +109,6 @@
 }
 
 .sound__volume {
-    margin-left: 30px;
-    margin-top: -5px;
+    margin-left: rem(30px);
+    margin-top: rem(-5px);
 }

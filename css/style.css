@@ -248,6 +248,7 @@ img {
 }
 
 .phone-number__icon-phone {
+  fill: #fff;
   width: 0.72222rem;
   height: 0.77778rem;
   margin: 0rem 0.33333rem 0rem 0rem;
@@ -281,6 +282,7 @@ img {
 }
 
 .feature__icon {
+  fill: #fff;
   width: 1.94444rem;
   height: 1.94444rem;
   margin: 0rem 0.77778rem 0rem 0rem;
@@ -764,7 +766,7 @@ img {
 }
 
 .radio--checkbox .radio__visible:before {
-  background: url("../../img/icon/mark.svg");
+  background: url("../../img/icon/mark.svg") no-repeat center;
   border-radius: 0;
 }
 
@@ -869,7 +871,7 @@ img {
 }
 
 .footer {
-  max-height: 5rem;
+  min-height: 5rem;
   padding: 1rem 0rem 1rem 0rem;
 }
 
@@ -923,6 +925,13 @@ img {
   color: #292929;
 }
 
+.phone-number__icon-footer {
+  fill: #000;
+  width: 0.72222rem;
+  height: 0.77778rem;
+  margin: 0rem 0.33333rem 0rem 0rem;
+}
+
 .phone-number__text-footer {
   font-style: normal;
   font-weight: normal;
@@ -937,125 +946,22 @@ img {
 }
 
 .socials__item {
-  margin-right: 1.94444rem;
+  margin-right: 0.77778rem;
 }
 
-.socials__item--icon--vk .socials__link:hover:before {
-  opacity: 1;
+.socials__link {
+  max-width: 1.38889rem;
+  max-height: 1.38889rem;
 }
 
-.socials__item--icon--vk .socials__link:hover:after {
-  opacity: 0;
+.socials__link-icon {
+  fill: #b3b3b3;
+  width: 1.38889rem;
+  height: 1.38889rem;
 }
 
-.socials__item--icon--vk .socials__link:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 1.11111rem;
-  height: 1.11111rem;
-  background: url("./../img/socials/sprites.png") -2.77778rem -2.77778rem;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.socials__item--icon--vk .socials__link:before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 1.11111rem;
-  height: 1.11111rem;
-  background: url("./../img/socials/sprites.png") -2.77778rem -2.77778rem;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.socials__item--icon--fb .socials__link:hover:before {
-  opacity: 1;
-}
-
-.socials__item--icon--fb .socials__link:hover:after {
-  opacity: 0;
-}
-
-.socials__item--icon--fb .socials__link:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 2rem;
-  height: 2rem;
-  background: url("./../img/socials/sprites.png") -0.55556rem -0.55556rem;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.socials__item--icon--fb .socials__link:before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 2rem;
-  height: 2rem;
-  background: url("./../img/socials/sprites.png") -0.55556rem -0.55556rem;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.socials__item--icon--in .socials__link:hover:before {
-  opacity: 1;
-}
-
-.socials__item--icon--in .socials__link:hover:after {
-  opacity: 0;
-}
-
-.socials__item--icon--in .socials__link:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 2rem;
-  height: 2rem;
-  background: url("./../img/socials/sprites.png") -2.77778rem -0.55556rem;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.socials__item--icon--in .socials__link:before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 2rem;
-  height: 2rem;
-  background: url("./../img/socials/sprites.png") -2.77778rem -0.55556rem;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.socials__item--icon--tw .socials__link:hover:before {
-  opacity: 1;
-}
-
-.socials__item--icon--tw .socials__link:hover:after {
-  opacity: 0;
-}
-
-.socials__item--icon--tw .socials__link:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 2rem;
-  height: 2rem;
-  background: url("./../img/socials/sprites.png") -0.55556rem -2.77778rem;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.socials__item--icon--tw .socials__link:before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 2rem;
-  height: 2rem;
-  background: url("./../img/socials/sprites.png") -0.55556rem -2.77778rem;
+.socials__link-icon:hover {
+  fill: #000;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -1479,6 +1385,8 @@ img {
   opacity: 1;
   z-index: 10;
   background: rgba(47, 50, 52, 0.9);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .map {

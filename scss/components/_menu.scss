@@ -4,15 +4,15 @@
     position: relative;
     display: flex;
     align-items: flex-end;
-    height: 652px;
+    height: rem(652px);
 }
 
 .menu__title {
     position: absolute;
     color: #fff;
-    top: 110px;
-    left: 85px;
-    margin: 0px 0px 0px 0px;
+    top: rem(110px);
+    left: rem(85px);
+    margin: rem(0px) rem(0px) rem(0px) rem(0px);
 }
 
 .menu-acco {
@@ -29,7 +29,7 @@
 .menu-acco__trigger {
     background-color: grey;
     position: relative;
-    width: 102px;
+    width: rem(102px);
 
     &-second {
         background: url("./../img/menu/second.png") center center/cover no-repeat;
@@ -46,10 +46,10 @@
 
 .menu-acco__trigger-text {
     font-weight: bold;
-    font-size: 48px;
+    font-size: rem(48px);
     position: absolute;
     left: 50%;
-    bottom: 130px;
+    bottom: rem(130px);
     transform: rotate(-90deg) translate(-50%, -50%);
 
     transform-origin: 0 0;
@@ -58,17 +58,18 @@
 
 .menu-acco__content {
     width: 0;
-    padding: 0px;
+    padding: rem(0px);
     opacity: 1;
     overflow: hidden;
 }
 
 .menu-acco__line_active > .menu-acco__content {
-    width: 524px;
-    height: 652px;
-    padding: 20px;
+    width: rem(524px);
+    height: rem(652px);
+    padding: rem(20px);
     box-sizing: border-box;
     opacity: 1;
     z-index: 10;
     background: rgba(47, 50, 52, 0.9);
+    transition: all 0.5s ease-in-out;
 }

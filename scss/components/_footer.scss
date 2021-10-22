@@ -1,6 +1,5 @@
 .footer {
-    max-height: rem(90px);
-    //margin-top: auto;
+    min-height: rem(90px);
     padding: rem(18px) rem(0px) rem(18px) rem(0px);
 }
 
@@ -32,6 +31,13 @@
     font-weight: normal;
     font-size: rem(21px);
     color: #292929;
+}
+
+.phone-number__icon-footer {
+    fill: #000;
+    width: rem(13px);
+    height: rem(14px);
+    margin: rem(0px) rem(6px) rem(0px) rem(0px);
 }
 
 .phone-number__text-footer {

@@ -210,9 +210,9 @@ function init() {
 
     let placemark = new ymaps.Placemark(center, {}, {
         iconLayout: 'default#image',
-        iconImageHref: "./img/marker.png",
+        iconImageHref: "./img/marker.svg",
         iconImageSize: [58, 73],
-        iconImageOffset: [-10, -10]
+        iconImageOffset: [-25, -72]
     });
 
     map.controls.remove('geolocationControl'); // удаляем геолокацию
@@ -224,7 +224,7 @@ function init() {
     map.controls.remove('rulerControl'); // удаляем контрол правил
     map.behaviors.disable(['scrollZoom']); // отключаем скролл карты (опционально)
 
-    map.geoObjects.add(Placemark);
+    map.geoObjects.add(placemark);
 }
 
 ymaps.ready(init);
