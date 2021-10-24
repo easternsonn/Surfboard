@@ -25,6 +25,9 @@ $z-fixed-menu: 100;
 //slider
 @import url("https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css");
 
+//modal
+@import url("https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css");
+
 //components
 @import "components/_hero";
 @import "components/_header";
@@ -51,3 +54,4 @@ $z-fixed-menu: 100;
 @import "components/_player";
 @import "components/_menu";
 @import "components/_map";
+@import "components/_modal";

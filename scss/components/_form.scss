@@ -53,6 +53,11 @@
         outline: none;
         border-radius: rem(4px);
     }
+
+    &--error {
+        border: rem(2px) solid rgb(243, 37, 37);
+        outline: none;
+    }
 }
 
 .form__controls {
