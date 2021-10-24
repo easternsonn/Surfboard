@@ -716,7 +716,7 @@ img {
 }
 
 .form__input--error {
-  border: 2px solid #f32525;
+  border: 0.11111rem solid #f32525;
   outline: none;
 }
 
@@ -1205,6 +1205,7 @@ img {
 }
 
 .video__player {
+  background-color: #000;
   position: relative;
   max-width: 36.66667rem;
   max-height: 21.77778rem;
@@ -1422,7 +1423,7 @@ img {
 
 .modal__container {
   background: #fff;
-  padding: 35px 60px;
+  padding: 1.94444rem 3.33333rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1436,6 +1437,6 @@ img {
 }
 
 .modal__content {
-  margin-bottom: 15px;
+  margin-bottom: 0.83333rem;
   color: #000;
 }
